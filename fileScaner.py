@@ -16,7 +16,7 @@ def scanfile(folder, f):
         #     f.append(path)
 
 
-scanfile(folder, f)
+# scanfile(folder, f)
 
 print(f)
 # for i, file in enumerate(f):
