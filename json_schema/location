@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/geographical-location.schema.json",
+
+  "title": "long and lat",
+  "description": "location of warehouse",
+
+  "type": "object",
+  "properties": {
+    "lat": {
+
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "long": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    }
+  },
+  "required": ["lat", "long"]
+
+}
